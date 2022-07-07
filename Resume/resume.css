@@ -1,13 +1,14 @@
 body {
     display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 30% 30% 30% 10%;
+    grid-template-columns: 22% 78%;
+    grid-template-rows: 20% 35% 35% 10%;
     font-family:Arial, Helvetica, sans-serif;
     grid-column-gap: 15pt;
-    grid-row-gap: 10pt;
+    grid-row-gap: 0pt;
     margin-top: 10pt;
     margin-right: 10pt;
-    width: 1000px;
+    margin-bottom: 20pt;
+    width: 1050px;
 }
 
 .header {
@@ -22,15 +23,15 @@ body {
 }
 
 .contact-info {
-    background-color: rgb(24, 24, 158);
+    background-color: rgb(29, 29, 78);
     grid-row: 2/5;
     color: whitesmoke;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 30pt;
-    padding-bottom: 30pt;
+    padding-top: 70pt;
+    padding-bottom: 70pt;
     padding-left: 10pt;
     padding-right: 10pt;
 }
@@ -38,6 +39,7 @@ body {
 
 h1 {
     font-size: 40pt;
+    margin: 20pt;
 }
 footer {
     text-align: center;
@@ -63,4 +65,19 @@ h5 {
 
 a {
     color: whitesmoke;
+}
+
+p {
+    margin: 5pt;
+    padding:0; 
+}
+
+h3 {
+    text-align: center;
+}
+
+#profile-pic {
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 5px 5px grey;
 }
