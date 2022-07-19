@@ -3,6 +3,7 @@
 body {
     background-color: #f4f1de;
     color: #3d405b;
+    margin-top: 80px;
 }
 
 .question, label {
@@ -15,7 +16,26 @@ main {
 }
 
 header {
-    margin-left: 10%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background-color: #f4f1de;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
+      }
+    
+      header li {
+        display: inline;
+        margin: 20px;
+      
+      }
+    
+      header li a {
+        color: #3d405b;
+        text-decoration: none;
 }
 
 .question > div {
@@ -28,9 +48,6 @@ header {
     body {
         background-color: #f4f1de;
         color: #3d405b;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 15% 85%;
     }
 
     
@@ -40,18 +57,39 @@ header {
     }
     
     main {
-        grid-area: 2/2/3/3 ;
+        grid-area: 2/2/3/3;
         
     }
     
-    header {
-        text-align: center;
-        grid-area: 1/2/2/2;
-    }
     
     .question > div {
         text-align: left;
     }
+section {
+    background-color: #f4f1de;
+    color: #3d405b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
 
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #f4f1de;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+  }
 
-    }
+  header li {
+    display: inline;
+    margin: 20px;
+  
+  }
+
+  header li a {
+    color: #3d405b;
+    text-decoration: none;} }

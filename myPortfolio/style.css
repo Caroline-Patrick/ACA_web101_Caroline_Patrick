@@ -1,22 +1,34 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(40, 88, 130);
-    background-repeat: no-repeat;
+    background-color: #f2cc8f;
     background-size: cover;
+    margin-top: 80px;
+    padding: 30px;
   }
-  /* What kind of selector is this? */
-  .logo {
-    width: 70pt;
-    height: 70pt;
-    margin: 3% 10%;
-  }
+
 
   header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #f4f1de;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
   }
 
+  header li {
+    display: inline;
+    margin: 20px;
+  
+  }
+
+  header li a {
+    color: #3d405b;
+    text-decoration: none;
+  }
   main {
     height: auto;
     width: 100%;
@@ -24,39 +36,39 @@ body {
     grid-template-columns: 30% 40% 30%;
   }
 
-  /* This is an element within and element selector */ 
   nav > a {
     margin: 2% 1% 3%;
     height: 10%;
     width: 15%;
-    color: rgb(4, 69, 91);
+    color: #3d405b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
-    background: transparent;
+    background: #3d405b;
     padding: 20px;
     text-align: center;
     border: 2px solid white;
+    word-wrap: nowrap;
   }
 
-  .has-border {
+  /* .has-border {
     border-radius: 2px;
-    border: 1px solid hwb(195 1% 71%);
+    border: 1px solid #3d405b;
     background: none;
     padding: 10pt auto;
-    background-color: hwb(46 7% 14%);
-  }
+    background-color: #f2cc8f;
+  } */
   
 
-  nav {
+  /* nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     padding-right: 2%;
+    word-wrap: nowrap;
    
-  }
+  } */
  
-  /* This is an ID selector */
   #profile-pic {
     width: 90%;
     height: 70%;
@@ -66,17 +78,17 @@ body {
   }
 
   h1 {
-    color:white;
+    color: #3d405b;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
+    border-bottom: 2px solid #f4f1de;
   }
 
   h2 {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: italic;
-    color: white;
+    color: #3d405b;
   }
 
   .small-text {
@@ -86,26 +98,7 @@ body {
     margin: 3% auto;
   }
 
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 5px;
-    background-color: hwb(46 7% 14%);
-    padding: 10% 5%;
-    text-align: center;
-    color: rgb(4, 69, 91);
-    letter-spacing: 6px;
-    font-style: none;
-  
-  }
 
-  button:hover {
-    background-color: green;
-  }
     /* Extra Small and up (Portrait Phones) */
 
   /* Small and up (Landscape Phones) */
@@ -120,7 +113,7 @@ body {
   @media (min-width: 768px) {
     body {
       color: salmon;
-      background-color: goldenrod;
+      background-color: #f2cc8f;
     }
 
 
