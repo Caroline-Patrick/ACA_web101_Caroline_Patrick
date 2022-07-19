@@ -1,0 +1,59 @@
+@media  (min-width:300px) {
+
+body {
+    background-color: #f4f1de;
+    color: #3d405b;
+}
+
+.question, label {
+    font-size: 20px;
+    padding: 15pt;
+}
+
+main {
+    text-align: left;
+}
+
+header {
+    margin-left: 10%;
+}
+
+.question > div {
+    text-align: left;
+}
+}
+
+@media  (min-width:760px) {
+
+    body {
+        background-color: #f4f1de;
+        color: #3d405b;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 15% 85%;
+    }
+
+    
+    .question, label {
+        font-size: 20px;
+        padding: 15pt;
+    }
+    
+    main {
+        grid-area: 2/2/3/3 ;
+        
+    }
+    
+    header {
+        text-align: center;
+        grid-area: 1/2/2/2;
+    }
+    
+    .question > div {
+        text-align: left;
+    }
+
+    button {
+        cursor: pointer;
+    }
+    }

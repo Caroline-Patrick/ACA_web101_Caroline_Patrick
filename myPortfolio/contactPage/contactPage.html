@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Caroline</title>
+  <link rel="stylesheet" href="contact-styles.css">
+  <script src="contact-scripts.js"></script>
+</head>
+<header><h1>Get in Touch!</h1></header>
+<body>
+    <main><form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required >
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required >
+    </div>
+<br>
+    <div>
+        <label for="contact-message"></label>
+        <textarea id="contact-message" name="contact-message" placeholder="Comments" min="20" max="500" required></textarea>
+      </div>
+    <div class="question">
+        How did you hear about me?
+      <div>
+        <label for="Classmate">Classmate</label>
+        <input type="checkbox" name="Classmate" id="Classmate">
+      </div>
+      <div>
+        <label for="resume-submission">Resume Submission</label>
+        <input type="checkbox" name="resume-submission" id="resume-submission">
+      </div>
+      <div>
+        <label for="linkedin">LinkedIn</label>
+        <input type="checkbox" name="linkedin" id="linkedin">
+      </div>
+      <div>
+        <label for="coding-rec">Coding Academy Rec</label>
+        <input type="checkbox" name="coding-rec" id="coding-rec">
+      </div>
+    </div>
+    <div class="question">
+     Would you like to be contacted?
+      <div>
+        <label for="yes-contact">Yes</label>
+        <input type="radio" name="yes-contact" id="yes-contact" value="yes-contact">
+      </div>
+      <div>
+        <label for="no-contact">No thanks</label>
+        <input type="radio" name="no-contact" id="no-contact" value="no-contact">
+      </div>
+    </div>
+    <div>
+        <div class="question">Enter your birthdate for a special birthday message!
+             <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date" min="2019-06-10">
+      </div>
+  
+<br>
+    
+  
+    
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
