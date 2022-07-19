@@ -6,11 +6,6 @@ body {
     background-color: #f2cc8f;
 }
 
-header {
-    text-align: center;
-    margin-top: 5%;
-    color: #e07a5f;
-}
 
 main {
     display: grid;
@@ -31,10 +26,6 @@ img {
     width: 100%;
 }
 
-/* .has-border {
-    put button style here?
-} */
-
 .footer {
     display: flex;
     flex-direction: wrap;
@@ -51,15 +42,6 @@ img {
     background-color: #f4f1de;
     grid-area: contact-border;
     border-radius: 4pt;
-    
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 30% 70%;
-    grid-template-areas: "... contact-title contact-title ..."
-                         "contact linkedin blog github";
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center; */
 }
 
 .links {

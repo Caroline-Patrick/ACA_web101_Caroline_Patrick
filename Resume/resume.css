@@ -9,6 +9,7 @@ body {
     margin-right: 10pt;
     margin-bottom: 20pt;
     width: 1050px;
+    color: #3d405b;
 }
 
 .header {
@@ -16,16 +17,11 @@ body {
     grid-row: 1/2;  
 }
 
-.headshot-role {
-    grid-column: 1/1;
-    grid-row: 1/1;
-    text-align: center;
-}
 
 .contact-info {
-    background-color: rgb(29, 29, 78);
-    grid-row: 2/5;
-    color: whitesmoke;
+    background-color: #3d405b;
+    grid-row: 1/5;
+    color: #f4f1de;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -36,6 +32,10 @@ body {
     padding-right: 10pt;
 }
 
+.contact-info a {
+    color: #f4f1de;
+    text-decoration: none;
+}
 
 h1 {
     font-size: 40pt;
@@ -63,9 +63,9 @@ h5 {
     padding: 0;
 }
 
-a {
+/* a {
     color: whitesmoke;
-}
+} */
 
 p {
     margin: 5pt;
@@ -76,8 +76,8 @@ h3 {
     text-align: center;
 }
 
-#profile-pic {
-    height: 100%;
-    width: 100%;
-    box-shadow: 10px 5px 5px grey;
+hr {
+    border: 1pt solid #3d405b;
+    background-color: #3d405b;
+    box-shadow: none;
 }
