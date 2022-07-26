@@ -46,10 +46,11 @@ body {
     justify-content: space-around;
     align-items: flex-end;
   }
-  /* main {
+  main {
     height: auto;
     width: 100%;
-  } */
+    margin-top: 300px;
+  }
 
   #logo-container {
     grid-area: logo;
@@ -57,10 +58,11 @@ body {
     background-image: url(/Images/logo.png);
     background-size: 100%;
     margin-right: 5%;
+    background-repeat: no-repeat;
    
   }
 
   #title {
     grid-area: title;
-    width: 300px;
+    width: 350px;
   }

@@ -1,0 +1,15 @@
+body {
+    background-image: url(/Images/shop-exterior.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+display: flex;
+align-items: center;
+justify-content: right;
+
+}
