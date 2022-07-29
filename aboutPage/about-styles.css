@@ -1,0 +1,62 @@
+/* Color palette: 81b29a, f4f1de, e07a5f, 3d405b, f2cc8f */
+
+body {
+    /* background-color: #328da8; */
+    color: #3d405b;
+    background-color: #f2cc8f;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 2fr 1fr .5fr;
+    grid-template-areas: 
+                         "header header header"
+                         "image  text   ..."
+                         "contact-border contact-border contact-border"
+                         "footer footer footer";
+}
+
+.image {
+    grid-area: image;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-evenly;
+    grid-area: footer;
+    background-color: #3d405b;
+    color: #f4f1de;
+    margin: 0pt 10%;
+}
+
+.contact-border {
+    padding-bottom: 20pt;
+    margin: 10pt 25%;
+    background-color: #f4f1de;
+    grid-area: contact-border;
+    border-radius: 4pt;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text {
+    grid-area: text;
+    margin-left: 10pt;
+}
+
+.contact-title {
+    grid-area: contact-title;
+    text-align: center;
+}
+

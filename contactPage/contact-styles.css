@@ -1,0 +1,80 @@
+@media  (min-width:300px) {
+
+body {
+    background-color: #f4f1de;
+    color: #3d405b;
+    margin-top: 80px;
+  
+
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    background:  #81b29a;
+ 
+    padding: 25px 15px 25px 10px;
+    /* font: */
+    text-shadow: 1px 1px 1px #81b29a;
+    box-shadow: 1px 1px 5px #575353;
+
+
+}
+
+h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    border-bottom: 1px solid #3d405b;
+    margin: -10px -15px 30px -10px;;
+
+}
+
+label {
+    display: block;
+    margin: 0px;
+}
+
+label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    border: 1px solid #DADADA;
+    color: #3d405b;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height: 15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+textarea{
+    padding: 5px 3px 3px 5px;
+    height:150px;
+
+}
+
+.button {
+    background: #e07a5f;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    margin-left: 45%;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #c65050;
+    cursor: pointer;
+}
+.button:hover {
+    background: hwb(302 10% 4%)
+}}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Caroline</title>
+  <link rel="stylesheet" href="contact-styles.css">
+  <link rel="stylesheet" href="../nav-bar.css">
+  <script src="contact-scripts.js"></script>
+</head>
+
+<header>
+  <nav class="menu">
+    <ul>
+      <li><a href="../index.html" class="has-border">Home</a></li>
+            <li><a href="../Resume/resume.html" class="has-border">Resume</a></li>
+            <li><a href="../aboutPage/aboutPage.html" class="has-border">About Me</a></li>
+            <li><a href="https://medium.com/@carolinespatrick" class="has-border" target="_blank">My Blog</a></li>
+            <li><a href="../contactPage/contactPage.html" class="has-border">Contact Me</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+    <section>
+    
+    <main>
+      <!-- enctype="multipart/form-data" class="style-heading" -->
+      <form action="https://formspree.io/f/xpzbvdqw" method="post" >
+        <h1>Get in Touch!</h1>
+        <label>
+          <span> Your Name: </span>
+          <input type="text" name="name" id="name" placeholder="Your full name" required >
+        </label>
+    
+    <label>
+      <span>Your Email: </span>
+      <input type="email" name="email" id="email" placeholder="Valid email address" required >
+    </label>
+<br>
+    <label>
+        <span>Message: </span>
+        <textarea id="contact-message" name="contact-message" placeholder="Your message" min="20" max="500" required></textarea>
+    </label>
+
+   <label>
+        <span>How did you hear about me?</span>
+      <select name="answer-options">
+        <option value="classmate">Classmate</option>
+        <option value="resume-submission">Resume Submission</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="coding-rec">Coding Academy Rec</option>
+        <option value="other">Other</option>
+      </select>
+      
+<br>
+<label>
+     <input type="submit" class="button" value="Send"  />
+</label>
+    
+  </form>
+  </main>
+</section>
+
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
