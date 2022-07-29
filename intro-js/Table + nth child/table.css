@@ -1,0 +1,47 @@
+
+  table {
+    font-size: 15pt;
+    text-align: center;
+    margin-left: 25vh;
+  }
+
+  th {
+    padding: 10pt;
+    text-align: center;
+  }
+
+tr {
+    text-align: center;
+    padding: 5pt;
+}
+
+tr td:nth-child(even) {
+    background-color: rgb(85, 103, 239);
+}
+
+tr td:nth-child(odd) {
+    background-color: rgb(113, 190, 244);
+}
+
+thead, .column-1 {
+    background-color: lime;
+  }
+
+tr td:nth-of-type(1) {
+    background-color: lime;
+}
+
+#top-left {
+    background-color: green;
+}
+
+div {
+    text-align: center;
+    font-size: 40pt;
+    color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
