@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.image-background {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .image-background {
+        /* display: block;
+        width: 100%;
+        padding-top: 30px; */
+    }
+
+    /* .content-wrapper {
+        width: 600px;
+        margin: 0 auto;
+    } */
+
+    .image-background {
+        display: block;
+        height: 150vh;
+        background-image: url('/Images/shop-exterior.jpg');
+        background-size: 500px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 22%;
+
+    }
+}
