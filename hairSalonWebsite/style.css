@@ -27,7 +27,20 @@ body {
 
     .image-background p, h2 {
         color: antiquewhite;
+        width: 40%;
 
+    }
+
+    .image-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-left: 10%;
+        padding-top: 10%;
+        line-height: 22px;
+
+        
     }
 
     .more {
@@ -38,11 +51,5 @@ body {
         padding: 5pt 10pt;
     }
 
-    .image-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        
-    }
+
 }

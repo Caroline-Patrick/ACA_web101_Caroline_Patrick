@@ -14,6 +14,7 @@
     background-color: whitesmoke;
     font-family: 'Alfa Slab One';
     font-size: 20px;
+    color: rgb(16, 35, 39)
 
   }
 
@@ -29,7 +30,7 @@
   }
 
   header li a {
-    color: black;
+    color: rgb(16, 35, 39);
     text-decoration: none;
   }
 
@@ -38,6 +39,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    
   }
 
   #logo-container {
