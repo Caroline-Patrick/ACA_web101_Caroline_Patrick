@@ -1,16 +1,19 @@
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+
   header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: 20%;
-    background-color: rgb (255, 255, 255);
-    /* box-shadow: 0 0 25px 0 black; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 30%;
+    background-color: whitesmoke;
     font-family: 'Alfa Slab One';
     font-size: 20px;
-
 
   }
 
@@ -36,11 +39,6 @@
     justify-content: space-around;
     align-items: flex-end;
   }
-  main {
-    height: auto;
-    width: 100%;
-    /* margin-top: 300px; */
-  }
 
   #logo-container {
     grid-area: logo;
@@ -56,3 +54,4 @@
     grid-area: title;
     width: 350px;
   }
+}
